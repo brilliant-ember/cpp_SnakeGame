@@ -1,6 +1,10 @@
 #include <iostream>
 using namespace std;
 bool gameOver;
+const int width = 20;
+const int height = 20;
+int x, y, fruitx, fruity, score;
+
 
 void setup() {
 	gameOver = false;
@@ -20,6 +24,7 @@ int main() {
 		Draw();
 		Input();
 		Logic();
+		//sleep(10);
 	}
 	return 0;
 }
