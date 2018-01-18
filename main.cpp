@@ -15,5 +15,11 @@ void Logic() {
 }
 
 int main() {
+	setup();
+	while (!gameOver) {
+		Draw();
+		Input();
+		Logic();
+	}
 	return 0;
 }
